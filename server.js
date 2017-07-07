@@ -12,6 +12,10 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+app.all("/*", function(req, res, next) {
+        res.sendfile(__dirname + '/public/index.html' );
+});
+
 app.set('port', (process.env.PORT || 3000));
 
 app.listen(3000, function() {

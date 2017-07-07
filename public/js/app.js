@@ -10,7 +10,7 @@ var appBB = angular
       templateUrl:'show.html'
   }).state('apartment', {
       url:'/apartment/:id',
-      templateUrl:'show_single.html'
+      templateUrl:'apartment.html'
 });
 $urlRouterProvider.otherwise('/');
 $locationProvider.html5Mode(true);

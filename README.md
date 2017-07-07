@@ -14,5 +14,5 @@ Each section will have a home page, a section with the rooms availabilty and pri
 
 #Resources for SEO in Angular 
 
-
 https://www.youtube.com/watch?v=JlP5rBynK3E
+https://stackoverflow.com/questions/13499040/how-do-search-engines-deal-with-angularjs-applications?noredirect=1&lq=1

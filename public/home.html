@@ -1,4 +1,4 @@
-<div id="main" align="center">
+<div id="main" align="center" ng-app="appBB" ng-controller="LangController as lang">
     <div class="page-header" id="header">
 
         <h1>RESIDENZA CARDUCCI</h1>
@@ -10,6 +10,9 @@
 &nbsp The Adige river protects the heart of the city with a soft embrace and green hills crowned by ancient fortifications depart from the sides.&nbsp 
 At night, the misty streets lit by lamp posts feel like a stage for a dramatic and passionate play. &nbsp At the Bed and Breakfast Residenza Carducci you can breathe the history of the city and experience the hospitality of a family that has been welcoming guests for generations.</div>
    </h3> </div>
+   <div class="locale-selector"></div>
+   <!--<localeSelector ></localeSelector>-->
+   <p>{{ 'greeting.helloWorld' | translate }}</p>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">

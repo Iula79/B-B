@@ -1,0 +1,9 @@
+{
+    "languageNames": {
+        "en": "English",
+        "it":"Italian"
+    },
+    "greeting": {
+        "helloWorld": "Hello, World!"
+    }
+}

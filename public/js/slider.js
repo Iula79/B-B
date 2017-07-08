@@ -1,5 +1,4 @@
 appBB.directive('slider', function($timeout) {
-    console.log("In slider");
     return {
         restrict: 'AE',
         replace: true,

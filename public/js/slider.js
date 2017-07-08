@@ -18,13 +18,11 @@ appBB.directive('slider', function($timeout) {
             scope.next = function() {
                 console.log("clicked");
                 scope.currentIndex < scope.images.length - 1 ? scope.currentIndex++ : scope.currentIndex = 0;
-                console.log(scope.currentIndex);
             };
 
             scope.prev = function() {
                 console.log("clicked");
                 scope.currentIndex > 0 ? scope.currentIndex-- : scope.currentIndex = scope.images.length - 1;
-                console.log(scope.currentIndex);
             };
 
             console.log(scope.currentIndex);

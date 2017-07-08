@@ -16,3 +16,7 @@ Each section will have a home page, a section with the rooms availabilty and pri
 
 https://www.youtube.com/watch?v=JlP5rBynK3E
 https://stackoverflow.com/questions/13499040/how-do-search-engines-deal-with-angularjs-applications?noredirect=1&lq=1
+https://technpol.wordpress.com/2013/11/02/adding-translation-using-angular-translate-to-an-angularjs-app/
+https://www.youtube.com/watch?v=ewTS5pJ_4cU
+https://scotch.io/tutorials/internationalization-of-angularjs-applications
+https://outlandish.com/blog/internationalisation-using-angular-translate-express-and-node/

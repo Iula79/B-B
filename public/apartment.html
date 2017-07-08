@@ -1,7 +1,7 @@
 <div id="main2" align="center" ng-app="appBB" ng-controller="BBController as bbs">
     <div class="page-header" id="header">
 
-        <h1 class="internal" >RESIDENZA CARDUCCI</h1>
+        <h1 class="internal">RESIDENZA CARDUCCI</h1>
 
     </div>
     <nav class="navbar navbar-default" id="navbar">
@@ -11,7 +11,7 @@
                 <li><a ui-sref="home">HOME</a></li>
                 <li ng-class="{ active : bbs.active == 1}"><a ui-sref="apartment({id:1})">SUITE SUD</a></li>
                 <li ng-class="{ active: bbs.active == 2 }"><a ui-sref="apartment({id:2})">SUITE NORD</a></li>
-                <li ng-class="{ active: bbs.active == 3 }"><a ui-sref="apartment({id:3})">VERAZZANO</a></li>
+                <li><a ui-sref="about" id="about">ABOUT</a></li>
             </ul>
         </div>
     </nav>
@@ -39,9 +39,19 @@
                 </div>
             </div>
             <div class="col-xs-12 col-md-4">
+                <div class="row">
                 <div id="pricing" class="textbox">
                     <h5>PRICING</h5>
                     <p>{{bbs.apartments[bbs.myParams].pricing}}</p>
+                </div>
+                </div>
+                <div class="row">
+                    <div id="link" class="textbox" style="padding-top:16px;background-color:#f4e5d2">
+                        <p>Do you need a bigger apartment?</br>
+                        Try:
+                        <a ui-sref-active="active" href="http://www.apartmentsverona.it/" class="btn btn-info" style="margin:0px;font-size:16px;background-color:#a3a3a3;" role="button"
+                            target="_blank">residenza verazzano</a>
+                    </div>
                 </div>
             </div>
             <div class="col-xs-12 col-md-4">
@@ -54,8 +64,6 @@
                     </ul>
                 </div>
             </div>
-
-
         </div>
         <div class="row">
             <div class="col-xs-12">
@@ -77,18 +85,18 @@
             <div class="col-xs-12 col-md-6" align="justify">
                 <div id="directions" class="textbox">
                     <h5 align="center">DIRECTIONS</h5>
-                        <h6>
+                    <h6>
                         <img src="./images/png/transport.png" alt="" width="40px"> from the airport</h6>
                     <p>{{bbs.apartments[bbs.myParams].directions[0]}}</p>
                     <p>{{bbs.apartments[bbs.myParams].directions[1]}}</p>
 
-                        <h6><img src="./images/png/transport-1.png" alt="" width="40px"> from the station</h6>
+                    <h6><img src="./images/png/transport-1.png" alt="" width="40px"> from the station</h6>
 
                     <p>{{bbs.apartments[bbs.myParams].directions[2]}}</p>
                     <p>{{bbs.apartments[bbs.myParams].directions[3]}}</p>
                     <p>{{bbs.apartments[bbs.myParams].directions[4]}}</p>
 
-                        <h6><img src="./images/png/transport-2.png" alt="" width="40px">   by car</h6>
+                    <h6><img src="./images/png/transport-2.png" alt="" width="40px"> by car</h6>
                     <p>{{bbs.apartments[bbs.myParams].directions[5]}}</p>
                     <p>{{bbs.apartments[bbs.myParams].directions[6]}}</p>
                 </div>

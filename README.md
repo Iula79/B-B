@@ -27,3 +27,11 @@ https://outlandish.com/blog/internationalisation-using-angular-translate-express
 #Intersting plugin to compact cdn's
 
 https://github.com/vijeysrc/grunt-fetch-from-cdn/
+
+#Prettifying the URL's 
+
+https://scotch.io/tutorials/pretty-urls-in-angularjs-removing-the-hashtag
+
+# Routing for angular-translate
+
+https://stackoverflow.com/questions/24281652/localize-urls-with-ui-router-and-angular-translate

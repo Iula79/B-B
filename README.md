@@ -35,3 +35,9 @@ https://scotch.io/tutorials/pretty-urls-in-angularjs-removing-the-hashtag
 # Routing for angular-translate
 
 https://stackoverflow.com/questions/24281652/localize-urls-with-ui-router-and-angular-translate
+
+
+Challenges:
+
+Used UI-Router because it supports nested views
+Had to update versions for translate.

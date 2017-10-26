@@ -25,11 +25,23 @@ var appBB = angular
                     lang: "en"
                 }
             }).state('apartment', {
-                url: '/apartment/:id',
-                templateUrl: 'apartment.html'
+                url: '/apartment/:lang?/:id',
+                templateUrl: 'apartment.html',
+                resolve: {
+                    lang: ["$translate", "$stateParams", function($translate, $stateParams){
+                        $translate.use($stateParams.lang);
+                        return $stateParams.lang;
+                    }]
+                },
             }).state('about', {
-                url: '/about',
-                templateUrl: 'about.html'
+                url: '/about/:lang?',
+                templateUrl: 'about.html',
+                resolve: {
+                    lang: ["$translate", "$stateParams", function($translate, $stateParams){
+                        $translate.use($stateParams.lang);
+                        return $stateParams.lang;
+                    }]
+                },
             });
         $urlRouterProvider.otherwise('/');
         $locationProvider.html5Mode(true);

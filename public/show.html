@@ -8,11 +8,11 @@
     <nav class="navbar navbar-default" id="navbar">
         <div>
             <ul class="nav navbar-nav">
-                <li><a ui-sref="intro">INTRO</a></li>
+                <li><a ui-sref="intro({lang: $resolve.lang})">INTRO</a></li>
                 <li ng-class="{ active: ('/home')}"><a ui-sref="index">HOME</a></li>
-                <li><a ui-sref="apartment({id: 1})" id="apt1">SUITE SUD</a></li>
-                <li><a ui-sref="apartment({id: 2})" id="apt2">SUITE NORD</a></li>
-                <li><a ui-sref="about" id="about">ABOUT</a></li>
+                <li><a ui-sref="apartment({lang: $resolve.lang, id: 1})" id="apt1">SUITE SUD</a></li>
+                <li><a ui-sref="apartment({lang: $resolve.lang, id: 2})" id="apt2">SUITE NORD</a></li>
+                <li><a ui-sref="about({lang: $resolve.lang})" id="about">ABOUT</a></li>
         </div>
     </nav>
     <div>

@@ -1,7 +1,7 @@
 //something
 appBB.controller("BBController", BBController);
 
-
+BBController.$inject = ["$state", "$stateParams", "$sce", "$rootScope"];
 
 function BBController($state, $stateParams, $sce, $rootScope) {
     // var tb = document.getElementById('Apt2')

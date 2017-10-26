@@ -1,4 +1,4 @@
-appBB.directive('localeSelector', function($translate) {
+appBB.directive('localeSelector', ["$state", "$translate", function($state, $translate) {
         console.log("In locale");
 
         return {
@@ -10,8 +10,9 @@ appBB.directive('localeSelector', function($translate) {
                 scope.locale = $translate.proposedLanguage();
  
                 scope.setLocale = function() {
-                    $translate.use(scope.locale);
+                    //$translate.use(scope.locale);
+                    $state.go($state.current, {lang: scope.locale}, {reload: true})
                 };
             }
         };
-    });
+    }]);

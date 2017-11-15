@@ -12,25 +12,13 @@
     },
     "button":"entra nel sito",
     "show":"una saga familiare",
-    "saga":{
+    "saga": {
         "first":"Quando Augusto Barana decise di trasformare la proprieta' familiare in una locanda, alla fine del 1800 (chiamata Trattoria Coccodrillo con Alloggio) non poteva sospettare che la sua eredita' atrraverso qualche peripezia, sarebbe durata fino ai giorni nostri.",
         "second":"All'inizio del 20esimo secolo la locanda prosperava con ospiti provenienti fin dalla cina, come dimostrato dal ritrovamento di monete e lettere straniere.",
         "third":"La trattoria sottostante, fornita di un largo forno a legna, due spaziose cantine un patio posteriore e un plateatico che animava la strada, divenne un luogo di ritrovo molto conosciuto a Verona.",
         "fourth":"In seguito alla prematura morte di Augusto nel 1942, la locanda vide susseguirsi una serie di gestori sempre piu' sospetti e inizio' ad avere la reputazione di affittare camere a ore. Nel 1962 il borderllo venne chiuso dalle autorita' e inizio' un lento declino.",
         "fifth":"Dopo 30 anni di abbandono l'edificio storico era ormai un rudere: pioggia e fuoco avevano devastato le travi sul retro e i pavimenti erano parzialmente crollati portando con se' mobili e oggetti precipitosamente abbandonati. Secchiai rotti pendevano dalle pareti e i piccioni erano gli unici abitanti delle stanze vuote.",
-        "sixt":"Nel 1990, la nipote di Augusto, Giovanna decise di imbarcarsi nel restauro della casa di famiglia. Dopo una lunga ristrutturazione mirata a preservare ogni pezzetto di storia, la locanda riapri' nel 2002 come Bed and Breakfast Residenza Carducci* e Giovanna accoglie ancora visitatori da ogni parte del mondo."
-    },
-    "veronetta":{
-        "first":"We are located in the historical part of town called Veronetta, on the left side of the Adige river. Veronetta is where the first settlements of the city were and is the home of the roman theatre, the Giardino Giusti and Castel San Pietro",
-        "second":"The main square in Veronetta is called Piazza Isolo, due to the fact that the adige river had gradually changed its course and the original course remained as a branch of increasingly stiller water. The island in the middle was called Isolo, which means island in italian. The canal was aggraded after a flood in 1882."
-    },
-    "facts":{
-        "first":"Residenza Carducci is a four story building, initially part of a convent complex as demonstrated by the walled doors that were once connecting it to the nearby buildings. The building oldest parts date from the 14th century but it was substantially renovated in 1556. The entryway has a characteristic vaulted ceiling entirely rivested in brick that leads to a stairway with a fresco depicting a "Madonna con Bambino" dated 1435 and
-        attributed to Girolamo Benaglio.",
-        "second":"From the courtyard there is a walled staircase that was presumably connecting the house with the river that once was flowing nearby.</p>
-        ",
-        "third":"Among the discoveries there was a mirror featuring the famous “Bisso Galeto” a legendary monster living in the
-        surroundings of Verona, a suitcase full of crocheted newborn clothes and a chest with porn magazines from the
-        fifties"
+        "sixth":"Nel 1990, la nipote di Augusto, Giovanna decise di imbarcarsi nel restauro della casa di famiglia. Dopo una lunga ristrutturazione mirata a preservare ogni pezzetto di storia, la locanda riapri' nel 2002 come Bed and Breakfast Residenza Carducci* e Giovanna accoglie ancora visitatori da ogni parte del mondo."
     }
+    
 }

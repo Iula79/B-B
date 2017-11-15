@@ -19,7 +19,28 @@
         "fourth":"Following Augusto's premature death in 1942, the locanda saw a streak of increasingly shady managers and started having a reputation of renting rooms by the hour, slowly turning the respectable inn in a underground brothel. The place was shut down by the authorities in 1962 and fell into disrepair.",
         "fifth":"After 30 years of abandonment, the historic building had turned into a wreck: rain and fire had ruined the beams on the back and the floors had partially fallen down bringing with them the old furniture and all the personal items suddenly left behind. Broken basins were dangling from the walls and pigeons were nesting in the empty rooms.",
         "sixth":"In 1990, Augusto's granddaughter Giovanna decided to embark in the restoration of the family house. After a long renovation that treasured and preserved every piece of history that was discovered, the place reopened in 2002 as Bed and Breakfast Residenza Carducci* and Giovanna welcomes guests again from everywhere in the world."
+    },
+    "area":"the area",
+    "veronetta":
+    {"first":"We are located in the historical part of town called Veronetta, on the left side of the Adige river. Veronetta is where the first settlements of the city were and is the home of the roman theatre, the Giardino Giusti and Castel San Pietro",
+    "second":"The main square in Veronetta is called Piazza Isolo, due to the fact that the adige river had gradually changed its course and the original course remained as a branch of increasingly stiller water. The island in the middle was called Isolo, which means island in italian. The canal was aggraded after a flood in 1882."
+    },
+    "notables":"interesting facts",
+    "facts":{
+        "first":"Residenza Carducci is a four story building, initially part of a convent complex as demonstrated by the walled doors that were once connecting it to the nearby buildings. The building oldest parts date from the 14th century but it was substantially renovated in 1556. The entryway has a characteristic vaulted ceiling entirely rivested in brick that leads to a stairway with a fresco depicting a 'Madonna con Bambino' dated 1435 and attributed to Girolamo Benaglio.",
+        "second":"From the courtyard there is a walled staircase that was presumably connecting the house with the river that once was flowing nearby.",
+        "third":"Among the discoveries there was a mirror featuring the famous “Bisso Galeto” a legendary monster living in the surroundings of Verona, a suitcase full of crocheted newborn clothes and a chest with porn magazines from the fifties"
+    },
+    "about":"the hosts",
+    "giovanna":{
+        "first":"GIOVANNA is in perpetual motion: when she is not managing the bed and breakfast, you will find her roaming around the city on her bike to go to the latest event or play tennis or skying. Don’t hesitate to ask her for tips about the coolest events in town, she is super informed about everything that happens in the city.",
+        "second":"She loves opera and never misses an occasion to go the summer festival in the Arena di Verona.",
+        "third":"Giovanna is passionate about vintage and antiques, therefore restoring the family house was like opening a large treasure chest for her. She couldn't get rid of any old flask or broken chair that she found in the house. Everything had to be restored and put to new use in Residenza Carducci. ",
+        "fourth":"Her most prized possession is her old Fiat 500, that she received as a graduation present from her parents. She won’t trust anyone else driving it and she has been using it daily for over thirty years to go everywhere is too far to reach by bike."
+    },
+    "michael":{
+       "first":"MICHAEL was born in the US but met Giovanna in France, in the summer of '69. He subsequently moved to Italy and decided to study architecture. He professed his love for Verona in his book “Close Quarters”, that talks in depht about the urbanistic and architectural structure of the city. ", 
+        "second":"Michael directed the restoration of the old inn and saw that every detail was taken care of. For example, he refused to sand the beams of the house which were covered in paint because that would ruin them, and proceeded to remove the paint from each one by hand.",
+        "third":"He is much easier to get a hold of than Giovanna because he’s usually sitting in his studio next to the entrance. Michael’s latest passion project is to fix the mountain house, a tiny railway checkpoint building at the feet of the alps."
     }
-    
-
 }

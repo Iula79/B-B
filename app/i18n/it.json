@@ -13,12 +13,34 @@
     "button":"entra nel sito",
     "show":"una saga familiare",
     "saga": {
-        "first":"Quando Augusto Barana decise di trasformare la proprieta' familiare in una locanda, alla fine del 1800 (chiamata Trattoria Coccodrillo con Alloggio) non poteva sospettare che la sua eredita' atrraverso qualche peripezia, sarebbe durata fino ai giorni nostri.",
+        "first":"Quando Augusto Barana decise di trasformare la proprieta' familiare in una locanda (Trattoria Coccodrillo con Alloggio), alla fine del 1800, non poteva sospettare che la sua eredita' attraverso numerose peripezie, sarebbe durata fino ai giorni nostri.",
         "second":"All'inizio del 20esimo secolo la locanda prosperava con ospiti provenienti fin dalla cina, come dimostrato dal ritrovamento di monete e lettere straniere.",
         "third":"La trattoria sottostante, fornita di un largo forno a legna, due spaziose cantine un patio posteriore e un plateatico che animava la strada, divenne un luogo di ritrovo molto conosciuto a Verona.",
         "fourth":"In seguito alla prematura morte di Augusto nel 1942, la locanda vide susseguirsi una serie di gestori sempre piu' sospetti e inizio' ad avere la reputazione di affittare camere a ore. Nel 1962 il borderllo venne chiuso dalle autorita' e inizio' un lento declino.",
         "fifth":"Dopo 30 anni di abbandono l'edificio storico era ormai un rudere: pioggia e fuoco avevano devastato le travi sul retro e i pavimenti erano parzialmente crollati portando con se' mobili e oggetti precipitosamente abbandonati. Secchiai rotti pendevano dalle pareti e i piccioni erano gli unici abitanti delle stanze vuote.",
         "sixth":"Nel 1990, la nipote di Augusto, Giovanna decise di imbarcarsi nel restauro della casa di famiglia. Dopo una lunga ristrutturazione mirata a preservare ogni pezzetto di storia, la locanda riapri' nel 2002 come Bed and Breakfast Residenza Carducci* e Giovanna accoglie ancora visitatori da ogni parte del mondo."
+    },
+    "area":"la zona",
+    "veronetta":{
+        "first":"Siamo situati nella zona della citta'chiamata Veronetta, sulla riva sinistra dell'Adige. A Veronetta si trovarono i primi insediamenti della citta' e vi si puo' trovare il Teatro Romano, Castel San Pietro e il Giardino Giusti.",
+        "second":"la piazza principale di Veronetta e' piazza Isolo, che si chiama cosi' perche il fiume Adige una volta formava un ramo attorno a quello che era una vera e propria isola. Il ramo che all'inizio era il corso principale dell'Adige divenne via via piu' stagnante finche' non fu interrato dopo una piena nel 1882. "
+    },
+    "notables":"curiosita'",
+    "facts":{
+        "first":"Residenza Carducci era inizialmente parte di un complesso conventuale come dimostrano le porte murate che lo connettono agli edifici adiacenti. La parte piu'antica dell'edificio e' del 15esimo secolo ma fu sostanzialmente rinnovata nel 1556. L'ingresso ha una caratteristica volta rivestita di mattoni e sulle scale si puo' trovare un affresco attribuito a Girolamo Benaglio 'Madonna con Bambino' datato 1435.",
+        "second":"Nel cortile c'e' una scala murata che conduceva al fiume che una volta scorreva vicino alla casa.",
+        "third":"Tra i tesori scoperti durante il restauro ci sono: uno specchio che raffigura il famoso 'Biso Galletto', un mostro leggendario che abitava i dintorni di Verona, una valigia piena di corredini per neonato di pizzo e una cassapanca piena di giornaletti pornografici degli anni 50/60."
+    },
+    "about":"gli ospiti",
+    "giovanna":{
+        "first":"GIOVANNA e' costantemente in movimento: quando non sta gestendo il B&B, la trovi che gira per la citta' sulla sua bicicletta per andare ad eventi o giocarea tennis. A lei si puo' chiedere informazioni su cosa succede in citta', sa tutto di tutti.",
+        "second":"Ama l'opera an non perde occasione di vedere tutte le opere dell'Arena di Verona.",
+        "third":"Giovanna e' appassionata di antiquariato e vintage, per cui ristrutturare la casa di famiglia e' stato come aprire una miniera d'oro. Vecchi fiaschi, sedie rotte, tutto e' stato ristrutturato e riutilizzato in Residenza Carducci.",
+        "fourth":" Il suo tesoro piu' prezioso e' la Fiat 500 che ha ricevuto per la laurea e che viene ancora utilizzata quotidianamente per quarant'anni per andare dovunque sia troppo lontano per essere raggiunto in bici."
+    },
+    "michael":{
+       "first":"MICHAEL e' nato negli USA ma ha conosciuto Giovanna in Francia nell'estate del 69. Da li' ha deciso di vivere in Italia e studiare architettura. Ha manifestato il suo amore per Verona nel suo libro “Close Quarters”, in cui analizza in profondita' la struttura urbanistica e architettonica della citta'. ", 
+        "second":"Michael ha diretto i lavori di ristrutturazione della vecchia locanda nei minimi dettagli. Per esempio, le travi non sono state sabbiate, ma grattate a mano da lui per evitare che si rovinassero.",
+        "third":"E' facile trovarlo seduto nel suo studio presso l'ingresso, intento a dedicarsi alla sua recente missione di ristrutturare la casa di montagna: un piccolo casello della ferrovia ai piedi delle alpi."
     }
-    
 }

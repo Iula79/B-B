@@ -58,32 +58,6 @@ function BBController($state, $stateParams, $sce, $rootScope) {
                 Cell: "0039 347 8545386",
                 Email: 'info@residenzacarducci.com'
             }
-        },
-
-        {
-            name: "Residenza Verazzano",
-            images_url: ['images/Residenza_Verazzano_master_bedroom.jpg','images/Residenza_Verazzano_hallway.jpg','images/Residenza_Verazzano_Secondary_Bedroom.jpg',
-                'images/Residenza_Verazzano_bagno.jpg',
-                'images/Residenza_Verazzano_cucina.jpg',
-                'images/Residenza_verazzano_scorcio_entrata.jpg',
-                'images/Residenza_verazzano_salone.jpg',
-                'images/Residenza_Verazzano_saletta.jpg'
-            ],
-            description: "This apartment, approximately 120 m2 in size, consists of a sunny living/dining area, with fully-equipped modern kitchen, a master bedroom, a double bedroom, a single bedroom and one bath, furnished with antiques. Guests with automobiles find ample parking next to the apartment and the nearby vicinity of the ring road. Guests without automobiles can easily move around using the city and provincial public transport system.",
-            amenities: ["4 rooms", "1 bath", "Kitchen", "Parking", "Air conditioning", "Laundry", "Free wifi"],
-            pricing: "between 60 and 160 euro per day depending on the season, the length of the stay and the number of guests",
-            conditions: ["check-in: TBD","no smoking"],
-            map: self.map2,
-            directions:["AIRBUS to Stazione Porta Nuova - 6,00 Euro - then follow FROM THE STATION instructions", "TAXI to Via G. da Verazzano - 26,00 Euro weekdays and 30,00 Euro weekends", " BUS 61 - weekdays - platform D2 - Via Magellano stop - 1,30 Euro in advance, 2,00 Euro on the bus"," BUS 93 or 94 - after 8 PM, weekends and holidays - platform D2 - via Colombo stop - 1,30 Euro in advance, 2,00 Euro on the bus", "TAXI to Via G. da Verazzano - 12,00 Euro weekdays and 15,00 Euro weekends and holidays", "Free Parking is available in the area" ],
-            address: {
-                street: "Via Giovanni da Verazzano 8",
-                Zip: "37138",
-                City: "Verona",
-                Country: "Italia",
-                Tel: "0039 045 8034501",
-                Cell: "0039 347 8545386",
-                Email: 'info@apartmentsverona.it'
-            }
         }
     ];
 

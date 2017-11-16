@@ -1,0 +1,10 @@
+{
+	"rooms": [
+		{
+			"name": "Suite Nord"
+		},
+		{
+			"name": "Suite Sud"
+		}
+	]
+}

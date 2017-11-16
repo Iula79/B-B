@@ -33,7 +33,7 @@
     },
     "about":"gli ospiti",
     "giovanna":{
-        "first":"GIOVANNA e' costantemente in movimento: quando non sta gestendo il B&B, la trovi che gira per la citta' sulla sua bicicletta per andare ad eventi o giocarea tennis. A lei si puo' chiedere informazioni su cosa succede in citta', sa tutto di tutti.",
+        "first":"GIOVANNA e' costantemente in movimento: quando non sta gestendo il B&B, la trovi che gira per la citta' sulla sua bicicletta per andare ad eventi o giocare a tennis. A lei si puo' chiedere informazioni su cosa succede in citta', sa tutto di tutti.",
         "second":"Ama l'opera an non perde occasione di vedere tutte le opere dell'Arena di Verona.",
         "third":"Giovanna e' appassionata di antiquariato e vintage, per cui ristrutturare la casa di famiglia e' stato come aprire una miniera d'oro. Vecchi fiaschi, sedie rotte, tutto e' stato ristrutturato e riutilizzato in Residenza Carducci.",
         "fourth":" Il suo tesoro piu' prezioso e' la Fiat 500 che ha ricevuto per la laurea e che viene ancora utilizzata quotidianamente per quarant'anni per andare dovunque sia troppo lontano per essere raggiunto in bici."
@@ -42,5 +42,12 @@
        "first":"MICHAEL e' nato negli USA ma ha conosciuto Giovanna in Francia nell'estate del 69. Da li' ha deciso di vivere in Italia e studiare architettura. Ha manifestato il suo amore per Verona nel suo libro “Close Quarters”, in cui analizza in profondita' la struttura urbanistica e architettonica della citta'. ", 
         "second":"Michael ha diretto i lavori di ristrutturazione della vecchia locanda nei minimi dettagli. Per esempio, le travi non sono state sabbiate, ma grattate a mano da lui per evitare che si rovinassero.",
         "third":"E' facile trovarlo seduto nel suo studio presso l'ingresso, intento a dedicarsi alla sua recente missione di ristrutturare la casa di montagna: un piccolo casello della ferrovia ai piedi delle alpi."
+    },
+    "apartments":[{
+        "name":"suite a sud"
+    },
+    {
+     "name":"suite a nord"
     }
+    ]
 }

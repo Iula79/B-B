@@ -15,4 +15,5 @@ appBB.directive('localeSelector', ["$state", "$translate", function($state, $tra
                 };
             }
         };
-    }]);
+    }]
+);

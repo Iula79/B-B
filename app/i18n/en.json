@@ -42,5 +42,12 @@
        "first":"MICHAEL was born in the US but met Giovanna in France, in the summer of '69. He subsequently moved to Italy and decided to study architecture. He professed his love for Verona in his book “Close Quarters”, that talks in depht about the urbanistic and architectural structure of the city. ", 
         "second":"Michael directed the restoration of the old inn and saw that every detail was taken care of. For example, he refused to sand the beams of the house which were covered in paint because that would ruin them, and proceeded to remove the paint from each one by hand.",
         "third":"He is much easier to get a hold of than Giovanna because he’s usually sitting in his studio next to the entrance. Michael’s latest passion project is to fix the mountain house, a tiny railway checkpoint building at the feet of the alps."
+    },
+    "apartments":[{
+        "name":"suite sud"
+    },
+    {
+     "name":"suite nord"
     }
+    ]
 }

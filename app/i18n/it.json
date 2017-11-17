@@ -54,7 +54,7 @@
             "fifth":"Lavanderia", 
             "sixth":"Internet"
         },
-        "description": "L'appartamento misura approssimativamente 45 m2, e consiste in a soggiorno/cucina completamente equipaggiata e una camera doppia con bagno, fornita con mobili originary della locanda. L'appartamento puo' ospitare un massimo di tre persone, e possiamo procurare una culla per bambini al di sotto dei 3 anni.",
+        "description": "L'appartamento misura approssimativamente 45 m2, e consiste in a soggiorno/cucina completamente equipaggiata e una camera doppia con bagno, fornita con mobili originari della locanda. L'appartamento puo' ospitare un massimo di tre persone, e possiamo procurare una culla per bambini al di sotto dei 3 anni.",
         "pricing": "tra gli 80 e i 180 a notte a seconda della stagione o particolari eventi",
         "conditions": {
             "first":"vietato fumare",
@@ -65,11 +65,14 @@
         },
         "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.3796219221226!2d11.002030615225646!3d45.4420057429457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477f5f36f889ec79%3A0x368e0dcf1358ac49!2sVia+Giosu%C3%A8+Carducci%2C+25C%2C+37129+Verona+VR%2C+Italy!5e0!3m2!1sen!2sus!4v1498937455719",
         "directions":{
+            "airplane":"dall'aeroporto",
             "first":"AIRBUS verso Stazione Porta Nuova - 6,00 Euro - poi seguire istruzioni DALLA STAZIONE" , 
             "second":"TAXI verso Via Carducci - 29,00 Euro feriali and 34,00 Euro festivi ", 
+            "station":"dalla stazione",
             "third":"MINIBUS 72 o 73 - feriali - Platform B1 - fermata 'Via Interrato dell'Acqua Morta' - 1,30 Euro, 2,00 Euro sull'autobus" , 
             "fourth":"BUS 91 - dopo le 20:00, serale e festivi - Piazzale D2 - fermata 'Via Carducci' - 1,30 Euro, 2,00 Euro sull'autobus" , 
             "fifth":"TAXI verso Via Carducci - 12,00 Euro feriali and 15,00 Euro festivi",
+            "car": "in auto",
             "sixth":"Parcheggio coperto nelle vicinanze chiede 10 euro giornalieri", 
             "seventh":"Siamo fuori della zona a traffico limitato"
         }

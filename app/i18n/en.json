@@ -43,11 +43,35 @@
         "second":"Michael directed the restoration of the old inn and saw that every detail was taken care of. For example, he refused to sand the beams of the house which were covered in paint because that would ruin them, and proceeded to remove the paint from each one by hand.",
         "third":"He is much easier to get a hold of than Giovanna because he’s usually sitting in his studio next to the entrance. Michael’s latest passion project is to fix the mountain house, a tiny railway checkpoint building at the feet of the alps."
     },
-    "apartments":[{
-        "name":"suite sud"
-    },
-    {
-     "name":"suite nord"
-    }
-    ]
+    "0":{"name":"suite south"},
+    "1":{"name":"suite north"},
+    "apartment":{
+        "amenities": {
+            "first":"2 rooms", 
+            "second":"kitchenette", 
+            "third":"Parking", 
+            "fourth":"Air conditioning", 
+            "fifth":"Laundry", 
+            "sixth":"Free wifi"
+        },
+        "description": "This suite, approximately 45 m2 in size, consists of a living/dining area with fully-equipped kitchenette and a double bedroom with bath, furnished with antiques from the original inn. The apartment can accomodate a maximum of 3 people, and we can provide a crib for infants.",
+        "pricing": "between 80 and 180 per night depending on the season or events",
+        "conditions": {
+            "first":"no smoking",
+            "second":"check-in: btw 1PM and 9PM", 
+            "third":"check-out: 11 AM",
+            "fourth":"-",
+            "fifth":"please contact us if you plan to arrive outside the regular check-in hours"
+        },
+        "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.3796219221226!2d11.002030615225646!3d45.4420057429457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477f5f36f889ec79%3A0x368e0dcf1358ac49!2sVia+Giosu%C3%A8+Carducci%2C+25C%2C+37129+Verona+VR%2C+Italy!5e0!3m2!1sen!2sus!4v1498937455719",
+        "directions":{
+            "first":"AIRBUS to Stazione Porta Nuova - 6,00 Euro - then follow FROM THE STATION instructions" , 
+            "second":"TAXI to Via Carducci - 29,00 Euro weekdays and 34,00 Euro weekends ", 
+            "third":" MINIBUS 72 or 73 - weekdays - Platform B1 - 'Via Interrato dell'Acqua Morta' stop - 1,30 Euro in advance, 2,00 Euro on the bus" , 
+            "fourth":" BUS 91 - after 8PM, evenings and weekends - Platform D2 - 'Via Carducci' stop - 1,30 Euro in advance, 2,00 Euro on the bus" , 
+            "fifth":"TAXI to Via Carducci - 12,00 Euro weekdays and 15,00 Euro weekends",
+            "sixth":"There is a nearby covered parking that charges 10 Euro per day", 
+            "seventh":"We are outside the ZTL area"
+        }
+    }  
 }

@@ -182,7 +182,13 @@ iframe {
     border: 20px;
     padding: 20px;
 }
-
+.ng-hide:not(.ng-hide-animate) {
+    /* These are just alternative ways of hiding an element - just because if i do regular ng-hide it removes the height of the div and I moves the position on the page */ 
+    display: block!important;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
 /*------------- media ------------*/
 
 @media screen and (max-width: 800px) {

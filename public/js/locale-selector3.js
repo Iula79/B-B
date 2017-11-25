@@ -7,14 +7,12 @@ appBB.directive('localeSelector', ["$state", "$translate", function($state, $tra
             templateUrl: 'directives/locale2.html',
             link: function(scope, elem, attrs) {
                 // Get active locale even if not loaded yet:
-                // scope.locale = $translate.proposedLanguage();
+                scope.locale = $translate.proposedLanguage();
                 console.log(scope.locale)
-                scope.setLocale = function(locale) {
+                scope.setLocale = function() {
                     //$translate.use(scope.locale);
-                    $state.go($state.current, {lang: locale}, {reload: true})
-                    
+                    $state.go($state.current, {lang: scope.locale}, {reload: true})
                 };
-                console.log(scope.locale)
             }
         };
     }]

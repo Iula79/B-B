@@ -1,7 +1,9 @@
 <div class="myslider" >
+  <div class="myslide">
    <div class="myslide"  ng-repeat="image in images" ng-show="image.visible" >
     <img ng-src="{{image.src}}" />
   </div>
+</div>
   <div class="myarrows">
     <a href="" >
       <img src="images/left-arrow.png" ng-click="prev()"/>

@@ -49,6 +49,7 @@ var appBB = angular
         $translateProvider.useCookieStorage();
         $translateProvider.useUrlLoader('/api/lang');
         $translateProvider.preferredLanguage('en');
+        $translateProvider.useSanitizeValueStrategy('escape');
     });
 
 

@@ -8,7 +8,7 @@ var appBB = angular
                 templateUrl: 'home.html',
                 resolve: {
                     lang: ["$translate", "$stateParams", function($translate, $stateParams){
-                        console.log($stateParams)
+                        // console.log($stateParams)
                         $translate.use($stateParams.lang);
                         return $stateParams.lang;
                     }]

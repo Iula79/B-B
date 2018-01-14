@@ -27,7 +27,7 @@ function BBController($state, $stateParams, $sce, $rootScope,$http) {
             images_url: ['images/Residenza_Carducci_Suite_SUD.jpg','images/Residenza_carducci_bedroom_detail.jpg', 'images/Residenza_Carducci_dettaglio_bagno.jpg', 'images/Residenza_Carducci_Suite_Sud_kitchenette.jpg', 'images/Residenza_Carducci_dettaglio_decorativo.jpg', 'images/Residenza_Carducci_salotto.jpg']            
         },
         {    
-            images_url: ['images/Residenza_Carducci_letto_dietro.jpg','images/Residenza_Carducci_bedroom.jpg','images/Residenza_Carducci_kitchenette.jpg','images/Residenza_Carducci_Suite_Nord2.jpg','images/Residenza_Carducci_Cortile.jpg']            
+            images_url: ['images/Residenza_Carducci_letto.jpg','images/Residenza_Carducci_bedroom_dietro.jpg','images/Residenza_Carducci_kitchenette_dietro.jpg','images/Residenza_Carducci_Suite_Nord.jpg','images/Residenza_Carducci_Cortile_Dietro.jpg']            
         }
     ];
 

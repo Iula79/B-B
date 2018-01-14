@@ -7,66 +7,20 @@
 
     </div>
     <div class="row">
-        <div class="col-md-6 col-md-offset-3" id="paragraph"><h3>{{'introduction.first' | translate}}&nbsp{{'introduction.second' | translate}}&nbsp{{'introduction.third' | translate}}&nbsp{{'introduction.fourth' | translate}}</div>
-    </h3> </div>
-   
-   <!--<localeSelector ></localeSelector>-->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <!-- <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-        </ol> -->
+        <div class="col-md-6 col-md-offset-3" id="paragraph">
+            <h3>{{'introduction.first' | translate}}&nbsp{{'introduction.second' | translate}}&nbsp{{'introduction.third' | translate}}&nbsp{{'introduction.fourth'
+                | translate}}</div>
+        </h3>
+    </div>
 
-        <!-- Wrapper for slides -->
-        <!-- <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="./images/Verona_Juliet_balcony.jpg" alt="Verona_Juliet_balcony">
-            </div>
+    <!--<localeSelector ></localeSelector>-->
 
-            <div class="item">
-                <img src="./images/Verona_Giardino_Giusti.jpg" alt="Verona_Giardino_Giusti">
-            </div>
-
-            <div class="item">
-                <img src="./images/Verona_Piazza_Erbe.jpg" alt="Verona_Piazza_Erbe">
-            </div>
-
-            <div class="item">
-                <img src="./images/Verona_scorcio_case_mazzi.jpg" alt="scorcio_case_mazzi_verona">
-            </div>
-
-            <div class="item">
-                <img src="./images/Verona_piatto_tipico_pastisada.jpg" alt="Verona_piatto_tipico_pastisada">
-            </div>
-        </div> -->
-
-        <!-- Left and right controls -->
-        <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a> -->
-    <!-- </div> -->
     <div ng-controller="CarouselDemoCtrl">
-          <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+        <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
             <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
-              <img ng-src="{{slide.image}}" style="margin:auto;">  
-            </div> 
+                <img ng-src="{{slide.image}}" style="margin:auto;">
+            </div>
         </div>
-        <!-- <script type="text/ng-template" id="alert.html">
-            <div ng-transclude></div>
-          </script>
-        
-          <div uib-alert ng-repeat="alert in alerts" ng-class="'alert-' + (alert.type || 'warning')" close="closeAlert($index)">{{alert.msg}}</div>
-          <div uib-alert template-url="alert.html" style="background-color:#fa39c3;color:white">A happy alert!</div>
-          <button type="button" class='btn btn-default' ng-click="addAlert()">Add Alert</button> -->
     </div>
     <div>
         <a ui-sref-active="active" ui-sref="home({lang: $resolve.lang})" class="btn btn-info" role="button">{{'button'|translate}}</a>

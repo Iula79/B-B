@@ -1,5 +1,5 @@
 var appBB = angular
-    .module('appBB', ['ui.router', 'ngAnimate', 'ngCookies', 'pascalprecht.translate'])
+    .module('appBB', ['ui.router', 'ngAnimate', 'ngCookies', 'pascalprecht.translate', 'ui.bootstrap'])
     .config(function ($stateProvider, $urlRouterProvider, $locationProvider, $translateProvider) {
       
         $stateProvider

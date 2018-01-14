@@ -208,7 +208,7 @@ iframe {
     opacity: 0;
   } */
 /*------------- media ------------*/
-
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
 @media screen and (max-width: 800px) {
     body:before {
         content:"";

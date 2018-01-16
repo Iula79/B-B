@@ -16,9 +16,9 @@
     <!--<localeSelector ></localeSelector>-->
 
     <div ng-controller="CarouselDemoCtrl">
-        <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+        <div uib-carousel active="active" id="mycarousel" interval="myInterval" no-wrap="noWrapSlides">
             <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
-                <img ng-src="{{slide.image}}" style="margin:auto;">
+                <img ng-src="{{slide.image}}">
             </div>
         </div>
     </div>

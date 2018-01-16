@@ -47,9 +47,13 @@ var appBB = angular
         $urlRouterProvider.otherwise('/');
         $locationProvider.html5Mode(true);
         $translateProvider.useCookieStorage();
-        $translateProvider.useUrlLoader('/api/lang');
-        $translateProvider.preferredLanguage('en');
-        $translateProvider.useSanitizeValueStrategy('escape');
+        $translateProvider.useUrlLoader('/api/lang')
+                .registerAvailableLanguageKeys(['en','it'], {
+                    '*': 'en'
+                })
+                .preferredLanguage('en')
+                .fallbackLanguage('en')
+                .useSanitizeValueStrategy('escape');
     });
 
 

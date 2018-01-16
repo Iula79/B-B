@@ -1,5 +1,3 @@
-console.log('module', appBB);
-
 appBB.controller('CarouselDemoCtrl',  function ($scope) {
     
     $scope.myInterval = 5000;

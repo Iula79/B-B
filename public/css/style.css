@@ -49,7 +49,7 @@ h3 {
 }
 
 #mycarousel {
-    height: 500px;
+    cursor: default;
 }
 #left-float {
     padding-left: 40px;
@@ -186,6 +186,9 @@ iframe {
     frameborder: 0;
     border: 20px;
     padding: 20px;
+}
+#english, #italian{
+    cursor: pointer;
 }
 
 /* ----------------- slider --------------- */

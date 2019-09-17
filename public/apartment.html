@@ -9,8 +9,10 @@
             <ul class="nav navbar-nav">
                 <li><a ui-sref="intro({lang: $resolve.lang})">INTRO</a></li>
                 <li><a ui-sref="home({lang: $resolve.lang})">HOME</a></li>
-                <li ng-class="{ active : bbs.active == 1}"><a ui-sref="apartment({id:1})">{{'0.name'|translate}}</a></li>
-                <li ng-class="{ active: bbs.active == 2 }"><a ui-sref="apartment({id:2})">{{'1.name'|translate}}</a></li>
+                <li ng-class="{ active : bbs.active == 1}"><a ui-sref="apartment({id:1})">{{'0.name'|translate}}</a>
+                </li>
+                <li ng-class="{ active: bbs.active == 2 }"><a ui-sref="apartment({id:2})">{{'1.name'|translate}}</a>
+                </li>
                 <li><a ui-sref="about({lang: $resolve.lang})" id="about">ABOUT</a></li>
             </ul>
         </div>
@@ -19,7 +21,7 @@
 
     <div class="panel">
         <div id="slider-container">
-            
+
             <!-- <h4>{{'about'|translate}}</h4> -->
             <h4>{{ bbs.myParams +'.name' |translate}}</h4>
         </div>
@@ -40,21 +42,22 @@
                         <p>{{'apartment.amenities.fourth' |translate}}</p>
                         <p>{{'apartment.amenities.fifth' |translate}}</p>
                         <p>{{'apartment.amenities.sixth' |translate}}</p>
-                        
+
                     </ul>
                 </div>
             </div>
             <div class="col-xs-12 col-md-4">
                 <div class="row">
-                <div id="pricing" class="textbox">
-                    <h5>PRICING</h5>
-                    <p>{{'apartment.pricing' |translate}}</p>
-                </div>
+                    <div id="pricing" class="textbox">
+                        <h5>PRICING</h5>
+                        <p>{{'apartment.pricing' |translate}}</p>
+                    </div>
                 </div>
                 <div class="row">
                     <div id="link" class="textbox" style="padding-top:16px;background-color:#f4e5d2">
                         <p>{{'apartment.bigger'|translate}}</p>
-                        <a ui-sref-active="active" href="http://www.apartmentsverona.it/" class="btn btn-info" style="margin:0px;font-size:16px;background-color:#a3a3a3;" role="button"
+                        <a ui-sref-active="active" href="http://www.apartmentsverona.it/" class="btn btn-info"
+                            style="margin:0px;font-size:16px;background-color:#a3a3a3;" role="button"
                             target="_blank">residenza verazzano</a>
                     </div>
                 </div>
@@ -67,7 +70,7 @@
                         <p>{{'apartment.conditions.second' |translate}}</p>
                         <p>{{'apartment.conditions.third' |translate}}</p>
                         <p>{{'apartment.conditions.fourth' |translate}}</p>
-                        <p>{{'apartment.conditions.fifth' |translate}}</p>                        
+                        <p>{{'apartment.conditions.fifth' |translate}}</p>
                     </ul>
                 </div>
             </div>
@@ -85,7 +88,8 @@
 
         <div id="google_maps" class="row">
             <div class="col-xs-12 col-md-6">
-                <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="500" height="443" ng-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.3796219221226!2d11.002030615225646!3d45.4420057429457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477f5f36f889ec79%3A0x368e0dcf1358ac49!2sVia+Giosu%C3%A8+Carducci%2C+25C%2C+37129+Verona+VR%2C+Italy!5e0!3m2!1sen!2sus!4v1498937455719">
+                <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="500" height="443"
+                    ng-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.3796219221226!2d11.002030615225646!3d45.4420057429457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477f5f36f889ec79%3A0x368e0dcf1358ac49!2sVia+Giosu%C3%A8+Carducci%2C+25C%2C+37129+Verona+VR%2C+Italy!5e0!3m2!1sen!2sus!4v1498937455719">
                 </iframe>
 
             </div>
@@ -93,31 +97,34 @@
                 <div id="directions" class="textbox">
                     <h5 align="center">DIRECTIONS</h5>
                     <h6>
-                        <img src="./images/png/transport.png" alt="" width="40px"> {{'apartment.directions.airplane'|translate}}</h6>
+                        <img src="./images/png/transport.png" alt="" width="40px">
+                        {{'apartment.directions.airplane'|translate}}</h6>
                     <p>{{'apartment.directions.first'|translate}}</p>
                     <p>{{'apartment.directions.second'|translate}}</p>
 
-                    <h6><img src="./images/png/transport-1.png" alt="" width="40px"> {{'apartment.directions.station'|translate}}</h6>
+                    <h6><img src="./images/png/transport-1.png" alt="" width="40px">
+                        {{'apartment.directions.station'|translate}}</h6>
 
                     <p>{{'apartment.directions.third'|translate}}</p>
                     <p>{{'apartment.directions.fourth'|translate}}</p>
                     <p>{{'apartment.directions.fifth'|translate}}</p>
 
-                    <h6><img src="./images/png/transport-2.png" alt="" width="40px">{{'apartment.directions.car'|translate}}</h6>
+                    <h6><img src="./images/png/transport-2.png" alt=""
+                            width="40px">{{'apartment.directions.car'|translate}}</h6>
                     <p>{{'apartment.directions.sixth'|translate}}</p>
                     <p>{{'apartment.directions.seventh'|translate}}</p>
                 </div>
             </div>
         </div>
-        
+
     </div>
     <div id="address" align="center">
-            <p>Via Carducci 25/C,Verona </p>
-            <p>37129, Italia</p>
-            <p>0039 045 8034501</p>
-            <a href="mailto:info@residenzacarducci.com">info@residenzacarducci.com</a>
-            <!-- {{"toggle contact form"}} -->
-        </div>
+        <p>Via Carducci 25/C,Verona </p>
+        <p>37129, Italia</p>
+        <p>p. +39 045 8034501 - c. +39 347 8545386</p>
+        <a href="mailto:info@residenzacarducci.com">info@residenzacarducci.com</a>
+        <!-- {{"toggle contact form"}} -->
+    </div>
 </div>
 
 
